@@ -11,6 +11,10 @@
   src: url("../app/fonts/Pixel_Square_10.ttf");
 }
 
+text, tspan {
+  font-family: goldenAge, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 .fab, .fas {
   color: white;
   font-size: 1vw;
