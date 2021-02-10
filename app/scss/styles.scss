@@ -262,6 +262,7 @@ p {
 
 .wrap-horiz {
   flex-direction: row;
+  align-items: center;
   width: 50%;
 }
 
@@ -269,13 +270,12 @@ p {
   // border: 2px solid $white;
   border-radius: 5px;
   padding: 1%;
-  margin: 5%;
+  margin: 3%;
   text-align: left;
 }
 
 .wrap-horiz img {
-  max-width: 30%;
-  height: auto;
+  max-width: 35%;
   border-radius: 20px;
 }
 
@@ -341,14 +341,20 @@ p {
   padding-bottom: 1rem;
   background-color: $gray_transparent;
   border-radius: 5px;
+}
 
-
+#pad {
+  padding-bottom: 4rem;
 }
 
 .content > * {
-  margin-bottom: 0px;
+  margin-bottom: 0;
   max-width: 85%;
     transition: transform 2s;
+}
+
+.content img {
+  margin-top: auto;
 }
 
 #l1-txt {
@@ -365,6 +371,9 @@ p {
 }
 #l5-txt {
   color: #4E24E6;
+}
+#l6-txt {
+  color: #FF0026;
 }
 
 .line {
