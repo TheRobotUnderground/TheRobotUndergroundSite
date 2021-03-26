@@ -28,7 +28,6 @@ $black_transparent: rgba(5, 5, 5, 0.8);
 $white: #f7f7f7;
 
 // || General styles
-
 * {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -138,7 +137,7 @@ a {
   color: #FF0045;
 }
 
-h1, h2, h3, p {
+h1, h2, h3, h6, p {
   color: $white;
   text-align: center;
 }
@@ -148,8 +147,12 @@ h1, h2, h3, h4, h5 {
 }
 
 h1 {
-  font-size: 3vw;
+  font-size: 4rem;
   padding-top: 1rem;
+}
+
+#scale-h1 {
+  font-size: 3vw;
 }
 
 h2 {
@@ -169,6 +172,12 @@ h4 {
 h5 {
   color: $white;
   font-size: 0.6vw;
+}
+
+h6 {
+  color: $white;
+  font-size: 16px;
+  font-weight: 400;
 }
 
 p {
@@ -222,6 +231,7 @@ p {
   // background-color: $black;
   height: auto;
   padding-bottom: 70px;
+  flex-wrap: wrap;
 }
 
 .wrap {
@@ -234,7 +244,8 @@ p {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 40%;
+  width: 20rem;
+  margin-bottom: 1rem;
 }
 
 .wrap-vert img {
@@ -245,11 +256,14 @@ p {
   margin-bottom: 0;
 }
 
-.wrap-vert p {
-  
+.wrap-vert h6 {
+  margin: 10px;
   text-align: left;
 }
 
+#no-scale-h2{
+  font-size: 30px;
+}
 
 .wrap, .wrap-horiz {
   height: 100%;
@@ -263,7 +277,9 @@ p {
 .wrap-horiz {
   flex-direction: row;
   align-items: center;
-  width: 50%;
+  justify-content: center;
+  width: 70%;
+  flex-wrap: wrap;
 }
 
 .wrap-horiz * {
@@ -272,11 +288,13 @@ p {
   padding: 1%;
   margin: 3%;
   text-align: left;
+  width: 30rem;
+
 }
 
 .wrap-horiz img {
-  max-width: 35%;
   border-radius: 20px;
+  
 }
 
 // || VIEW ONE: AT A GLANCE
@@ -298,7 +316,8 @@ p {
 }
 
 .sidebar img {
-  height: 100%;
+  // height: 100%;
+  max-width: 70%;
   position: absolute;
   z-index: 1;
   left: 0; 

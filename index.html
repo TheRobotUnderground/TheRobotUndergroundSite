@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="dist/styles.css?cb=1612986921301">
+    <link rel="stylesheet" href="dist/styles.css?cb=1616720164392">
     <link rel="icon" href="app/images/TRU_Icon.jpg">
     <script src="https://kit.fontawesome.com/59843e2a6c.js" crossorigin="anonymous"></script>
     <!-- <link rel="stylesheet" href="css/styles.css"> -->
@@ -25,9 +25,10 @@
         <img src="app/images/100px_TRU_Logo.png" alt="Logo">
         <a href="#">HOME</a>
         <a href="#at-a-glance">AT A GLANCE</a>
-        <a href="#full-curriculum">FULL CURRICULUM</a>
+        <a href="#roadmap">ROADMAP</a>
         <a href="#about">ABOUT</a>
         <a href="#team">TEAM</a>
+        <a href="#beta-testers">BETA TESTERS</a>
     </div>
     
     <h1 id="at-a-glance">&lt;AT A GLANCE&gt;</h1>
@@ -42,7 +43,7 @@
                 <div class="sidebar">
                     <img src="app/images/level1.png" alt="Level 1 Shield">
                     <div class="sidebar-box">
-                        <h1>1</h1>
+                        <h1 id="scale-h1">1</h1>
                     </div>
                 </div>
                 <div class="content">
@@ -119,7 +120,7 @@
                 <div class="sidebar">
                     <img src="app/images/level2.png" alt="Level 2 Shield">
                     <div class="sidebar-box">
-                        <h1>2</h1>
+                        <h1 id="scale-h1">2</h1>
                     </div>
                 </div>
                 <div class="content">
@@ -222,7 +223,7 @@
                 <div class="sidebar">
                     <img src="app/images/level3.png" alt="Level 3 Shield">
                     <div class="sidebar-box">
-                        <h1>3</h1>
+                        <h1 id="scale-h1">3</h1>
                     </div>
                 </div>
                 <div class="content">
@@ -340,7 +341,7 @@
                 <div class="sidebar">
                     <img src="app/images/level4.png" alt="Level 4 Shield">
                     <div class="sidebar-box">
-                        <h1>4</h1>
+                        <h1 id="scale-h1">4</h1>
                     </div>
                 </div>
                 <div class="content">
@@ -472,7 +473,7 @@
                 <div class="sidebar">
                     <img src="app/images/level5.png" alt="Level 5 Shield">
                     <div class="sidebar-box">
-                        <h1>5</h1>
+                        <h1 id="scale-h1">5</h1>
                     </div>
                     <h2 id="l5-txt">MECHATRONICS</h2>
                 </div>
@@ -611,7 +612,7 @@
                 <div class="sidebar">
                     <img src="app/images/level5.png" alt="Level 5 Shield">
                     <div class="sidebar-box">
-                        <h1>5</h1>
+                        <h1 id="scale-h1">5</h1>
                     </div>
                     <h2 id="l5-txt">MACHINE LEARNING</h2>
                 </div>
@@ -755,7 +756,7 @@
                 <div class="sidebar">
                     <img src="app/images/level6.png" alt="Level 6 Shield">
                     <div class="sidebar-box">
-                        <h1>6</h1>
+                        <h1 id="scale-h1">6</h1>
                     </div>
                     <h2 id="l6-txt">CUSTOM ROBOTS.<br>QUARTERLY BATTLES.<br>NEW SKILL LIBRARIES UNLOCKED.</h2>
                 </div>
@@ -789,13 +790,13 @@
     </div>
 
     <!-- Infograph 3 -->
-    <h1 id="full-curriculum">&lt;FULL CURRICULUM&gt;<p>* We'll link tutorials as we upload them.</p></h1>
+    <h1 id="roadmap">&lt;ROADMAP&gt;<h6>* We'll link tutorials as we upload them.</h6></h1>
     
     <div class="main">
         <div class="wrap">
             <div class="svg-wrap">
 
-                <embed src="app/images/Final_TRU_Infograph.svg"></embed>
+                <embed src="app/images/3.25.21_Tru_Info.svg"></embed>
 
             </div>
         </div>
@@ -804,7 +805,7 @@
     <h1 id="about">&lt;ABOUT THE ROBOT UNDERGROUND&gt;</h1>
     <div class="main">
         <div class="wrap-horiz">
-            <p>Wassup! We’re building The Robot Underground to be the world’s best online robotics curriculum for rogue middle school and high school teens who want to build more advanced robots. The Robot Underground will be the first of its kind: a completely free and open source YouTube-based robotics curriculum geared toward renegades everywhere who want to break into robotics from the comfort of their own home.
+            <h6>Wassup! We’re building The Robot Underground to be the world’s best online robotics curriculum for rogue middle school and high school teens who want to build more advanced robots. The Robot Underground will be the first of its kind: a completely free and open source YouTube-based robotics curriculum geared toward renegades everywhere who want to break into robotics from the comfort of their own home.
                 <br><br>
                 The Robot Underground will provide comprehensive, robust, step-by-step training that will weave together the various threads of robotics (building, coding, circuitry, math, and physics) and will ultimately enable a teen to walk into the university on day one, over-prepared for their launch into a technical major.
                 <br><br>
@@ -812,7 +813,7 @@
                 <br><br>
                 We will start dropping our new Robot Underground tutorials in March 2021 and intend to have it fully finished by the fall of 2021.
                 
-            </p>
+            </h6>
             <img src="app/images/TRU.jpg" alt="TRU picture">
         </div>
     </div>
@@ -821,22 +822,54 @@
     <div class="main" style="width: 50%; margin: auto;">
         <div class="wrap-vert">
             <img src="app/images/Greta.png" alt="Greta">
-            <h2>GRETA MAYER</h2>
-            <p>Greta (hackername: "gretty spaghetti") handles all things software. The bulk of her (extwemely epic)
+            <h2 id="no-scale-h2">GRETA MAYER</h2>
+            <h6>Greta (hackername: "gretty spaghetti") handles all things software. The bulk of her (extwemely epic)
                 work includes translating algorithm theory into C/C++ or Python so that a robot's microcontroller or SBC can 
                 understand it. Wowie zowie! Right now, she's tryna master the dark art of P.I.D. tuning while going after
-                the ol' bachelor's in Computer Engineering.
-            </p>
+                the ol' bachelor's in Computer Engineering and Math.
+            </h6>
         </div>
         <div class="wrap-vert">
             <img src="app/images/Parker.png" alt="Parker">
-            <h2>PARKER MAYER</h2>
-            <p>Parker (often referred to as "Uncle Parker" by her adoring fans) tackles the hardware side of things.
+            <h2 id="no-scale-h2">PARKER MAYER</h2>
+            <h6>Parker (often referred to as "Uncle Parker" by her adoring fans) tackles the hardware side of things.
                She's our resident CAD-masta and does deep dives into the lands of circuitry and electronics. Her hobbies
                include NOT blowing up our multimeter. Yuk yuk. Right now, she's working on the ol' bachelor's 
                in Electrical Engineering and Math.
-            </p>
+            </h6>
         </div>
+    </div>
+
+    <h1 id="beta-testers">&lt;BETA TESTERS&gt;</h1>
+    <div class="main" style="width: 50%; margin: auto;">
+        <div class="wrap-vert">
+            <img src="app/images/BaileyFinal.png" alt="Bailey">
+            <h2 id="no-scale-h2">BAILEY T</h2>
+            <h6>Fun fact: Likes mysteries.
+            </h6>
+        </div>
+
+        <div class="wrap-vert">
+            <img src="app/images/MilesFinal.png" alt="Miles">
+            <h2 id="no-scale-h2">MILES</h2>
+            <h6>Fun fact: Once I ate cold canned beans at 3am (right out of the can).
+            </h6>
+        </div>
+        <div class="wrap-vert">
+            <img src="app/images/TFinal.png" alt="Tessa">
+            <h2 id="no-scale-h2">TESSA (TESSIE THE ROCK TESSIE)</h2>
+            <h6>Fun fact #1: Proud to have never played Fortnite. <br><br>
+                Fun fact #2: Once won the "quiet award" at school.
+            </h6>
+        </div>
+
+        <div class="wrap-vert">
+            <img src="app/images/JayFinal.png" alt="Jay">
+            <h2 id="no-scale-h2">JAY COOPER</h2>
+            <h6>Fun fact: Has weird obsession with pigeons.
+            </h6>
+        </div>
+        <h6>...And many more!</h6>
     </div>
 
     <div class="line" style="margin: auto; margin-top: 2rem;"></div>
@@ -858,7 +891,7 @@
         </div>
     </footer>
 
-    <script src="dist/all.js?cb=1612986921301"></script>
+    <script src="dist/all.js?cb=1616720164392"></script>
 
 </body>
 </html>
