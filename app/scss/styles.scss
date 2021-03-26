@@ -227,6 +227,12 @@ p {
 //   color: red;
 // }
 
+iframe {
+  display: block;
+  margin: auto;
+  padding-bottom: 2rem;
+}
+
 .main {
   // background-color: $black;
   height: auto;
@@ -599,6 +605,12 @@ p {
 }
 #hundo-percent-inner {
   width: 100%;
+}
+
+#svg-button {
+  height: 30px;
+  width: 30px;
+  background-color: #00CBFF;
 }
 
 // for messin with SVGs
